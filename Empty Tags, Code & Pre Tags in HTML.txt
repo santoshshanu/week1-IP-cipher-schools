@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Empty Tags in HTML</title>
+</head>
+<body>
+	<!-- Line Break -->
+	Two roads diverged in a yellow wood,
+	<br>
+	And sorry I could not travel both
+	<br>
+	And be one traveler, long I stood
+	<br>
+	And looked down one as far as I could
+	<br>
+	To where it bent in the undergrowth;
+	<br>
+	<br>
+	Then took the other, as just as fair,
+	<br>
+	And having perhaps the better claim,
+	<br>
+	Because it was grassy and wanted wear;
+	<br>
+	Though as for that the passing there
+	<br>
+	Had worn them really about the same,
+	<br>
+	<br>
+	<!-- Line Break -->
+	<p>
+		And both that morning equally lay
+		<br>
+		In leaves no step had trodden black.
+	</p>
+	<br>
+	<br>
+	<!-- Spacing format -->
+	<pre>
+	Oh, I kept the first for another day!
+		Yet knowing how way leads on to way,
+		I doubted if I should ever come back.
+	I shall be telling this with a sigh
+		Somewhere ages and ages hence:
+		Two roads diverged in a wood, and I—
+		I took the one less traveled by,
+		And that has made all the difference.  
+	</pre>
+	<br>
+	<br>
+	<!-- Using code inside para -->
+	<p>You can include thisstyling in html with linking it to css
+		or using inlline css and give the<code>{background-color: green}</code> with heading</p>
+	<!-- forcing not to break a line -->
+	<p>I am 16 years old Hustler, Learner, Explorer, Frontend designer $ MERN&nbsp;&nbsp;&nbsp; Developer </p>
+</body>
+</html>

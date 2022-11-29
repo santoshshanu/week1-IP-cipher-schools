@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Attributes</title>
+</head>
+<body dir="ltr">
+    <p class="para">Description</p>
+    <!-- id is unique to a element -->
+    <p id="one">Description</p>
+    <p lang="en">Description</p>
+    <!-- direction right to left -->
+    <p dir="rtl">Description</p>
+    <p contenteditable="true">I am here</p>
+</body>
+</body>
+</html>

@@ -1,0 +1,35 @@
+<!--DOCTYPE declares which era is this html file is from-->
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <!--meta only belongs to head-->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The HTML Page</title>
+    <!--relation is stylesheet-->
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="images/Spider-Man.jpg" type="image/x-icon">
+    <script src=""></script>
+    <!-- script is not always added above the head 
+         it is generally added above the closing tag of the body
+         but sometimes the condition are to add it above the closing tag of head
+        -->
+</head>
+<body>
+    <header>
+       <!-- TOP -->
+    </header>
+    <main>
+        <article>
+            <!-- It is the main attraction (Wraps up around the main content of the page) -->
+        </article>
+        <aside>
+            <!-- It is not the main attraction (Side bars) -->
+        </aside>
+    </main>
+    <footer>
+       <!-- BOTTOM -->
+    </footer>
+</body>
+</html>

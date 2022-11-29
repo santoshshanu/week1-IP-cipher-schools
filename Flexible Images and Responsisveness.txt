@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Images & responsiveness in HTML</title>
+</head>
+<body>
+    <img src="images/BGI12.jpg" alt="Spiderman" height="600px" width="500px"  
+    srcset="images/BGI12.jpg 400w,
+            images/BGI11.jpg 800w,
+            images/BGI10.jpg 1000w"
+    sizes="(max-width: 480px) 240px,
+           (max-width:960px) 480x,
+           (max-width: 1440px) 960px"
+    >
+    <!-- Without using javascript images changing with width of site changing -->
+    <picture>
+        <source media="(max-width: 600px)" srcset="images/BGI12.jpg">
+        <source media="(max-width: 900px)" srcset="images/BGI11.jpg">
+        <source media="(max-width: 1000px)" srcset="images/BGI10.jpg">
+    </picture>
+    
+</body>
+</html>

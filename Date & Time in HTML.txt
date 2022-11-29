@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Date & Time</title>
+</head>
+<body>
+    <!-- "YYYY-MM-DD" -->
+    <time dateime="2021-05-01">1st May 2021</time>
+    <time dateime="15:45-06:00">1st May 2021</time>
+    <time dateime="2021-05-01 15:45-06:00">1st May 2021</time>
+    <time dateime="2021-05-01T15:45-06:00">1st May 2021</time>
+</body>
+</html>
